@@ -1,0 +1,59 @@
+body{
+  padding: 20px;
+}
+.title {
+	color: #5C6AC4;
+}
+p{
+  color:black;
+}
+h3{
+  font-size: 20px;
+  text-align: left;
+  color:black;
+  margin-bottom:1em;
+}
+.row{
+  
+  margin-top: 2em;
+  color: rgb(88, 59, 217);
+}
+.bi-calculator-fill{
+  margin-right: 5px;
+}
+.col-5{
+  padding-top: 1em;
+  height:800px;
+  border: 1px solid rgb(237, 237, 235);
+  border-radius: 5px;
+}
+
+#inputCalc{
+  background-color: rgb(237, 237, 235);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#displayOutput{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+h2{
+  color:black;
+}
+.instruct{
+  color:black;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 15;
+}
+.card-body{
+  margin-top: 1em;
+  height: auto;
+}
+.timeframeBtn{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.form-control,
+.input-group-text{
+  height:2em;
+}
