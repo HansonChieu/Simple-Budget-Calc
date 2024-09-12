@@ -1,5 +1,15 @@
-body{
-  padding: 20px;
+.navbar-expand-lg{
+  position: fixed;
+  top: 0; 
+  width: 100%;
+  z-index: 1000;
+}
+.bg-body-tertiary{
+  background-color: rgba(160, 165, 174, 0.752) !important;
+}
+.text-center{
+  margin-top: 5em;
+  margin-bottom: 2em;
 }
 .title {
 	color: #5C6AC4;
@@ -31,9 +41,15 @@ h3{
 #inputCalc{
   background-color: rgb(237, 237, 235);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding:10px;
+  height: 110vh;
+  overflow:auto;
 }
 #displayOutput{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding:10px;
+  height: 110vh;
+  overflow:auto;
 }
 h2{
   color:black;
